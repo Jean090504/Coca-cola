@@ -26,10 +26,23 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #DA6062;
 }
 
-.background-logo {
-    main {
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #FFFFFF;
+    padding-left: 75px;
+}
+
+header span {
+    font-weight: 600;
+}
+
+main {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -59,21 +72,6 @@ main {
 
 .content-image {
     height: 85vh;
-}
-
-}
-
-header {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    color: #FFFFFF;
-    padding-left: 75px;
-}
-
-header span {
-    font-weight: 600;
 }
 
 footer {
@@ -112,3 +110,4 @@ footer div {
         padding: 0px 25px;
     }
 }
+
