@@ -100,4 +100,8 @@ footer div{
     footer{
         padding: 0px 25px;
     }
+
+    .background-logo{
+        padding: 10px;
+    }
 }
