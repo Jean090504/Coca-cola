@@ -53,6 +53,7 @@ main{
     transform: translateX(-100%);
     text-align: right;
     padding-right: 30px;
+;
 }
 
 .content-image{
@@ -88,9 +89,12 @@ footer div{
         font-size: 1rem;
         width: 100px;
         text-align: center;
+        padding-right: 0px;
+        margin: auto;
     }
     .content-image{
         height: 70vh;
+        margin-top: auto;
     }
 
     footer{
